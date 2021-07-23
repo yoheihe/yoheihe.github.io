@@ -4,25 +4,55 @@ hi {
   font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
 }
 
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
 header h1 {
   font-size: 36px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 3px solid #ddd; */
   text-align: left;
+  margin-left: 20px;
+  color: #ddd;
+  margin: 0%;
+}
+.main-nav {
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+  color: #ddd;
 }
 
+.main-nav li {
+  margin-left: 36px;
+  cursor: pointer;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  background-color: black;
+}
 
 
 .movei-content {
   position: relative;
   display: inline-block;
+  margin: 0%;
 }
+
 .movei-content video {
   width: 100%;
 } 
 
 .table-center video {
   position: relative;
+  margin: 0%;
 }
 
 .text {
@@ -59,6 +89,33 @@ h1 {
   font-size: 30px;
   padding-top: 8px;
   text-align: center;
+}
+
+li {
+  list-style-position: inside;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.box1 {
+  background-color: gray;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: orange;
 }
 
 footer {
