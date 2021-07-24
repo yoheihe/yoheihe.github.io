@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+body {
+  margin: 0px;
+  background: #dbedf0;
+  color: #330000;
+}
+
 hi {
   font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
 }
@@ -7,7 +13,7 @@ hi {
 .page-header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #dbedf0;
 }
 
 header h1 {
@@ -15,8 +21,8 @@ header h1 {
   padding-bottom: 8px;
   /* border-bottom: 3px solid #ddd; */
   text-align: left;
-  margin-left: 20px;
-  color: #ddd;
+  margin-left: 10px;
+  color: #330000;
   margin: 0%;
 }
 .main-nav {
@@ -25,7 +31,7 @@ header h1 {
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
-  color: #ddd;
+  color: #330000;
 }
 
 .main-nav li {
@@ -36,7 +42,7 @@ header h1 {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: black;
+  background-color: #dbedf0;;
 }
 
 
@@ -85,10 +91,24 @@ header h1 {
   font-weight: 600;
 } */
 
+section {
+    margin-bottom:100px;
+}
+
 h1 {
   font-size: 30px;
   padding-top: 8px;
   text-align: center;
+}
+
+.main h1 {
+  text-decoration: underline;
+  border-width: 3px;
+}
+
+.main-text {
+  text-align: center;
+  font-size: 20px;
 }
 
 li {
@@ -106,59 +126,82 @@ li {
   height: 300px;
   text-align: center;
   border-radius: 30%;
+  cursor: pointer;
+}
+
+.box a {
+  text-decoration: none;
 }
 
 .box1 {
-  background-color: gray;
+  background-color: #80a491;
   margin-left: 50px;
   line-height: 300px;
-  color: #fff;
+  color: #330000;
   font-weight: bold;
   font-size: 30px;
 }
 
 .box2 {
-  background-color: green;
+  background-color: #80a491;
   line-height: 300px;
-  color: #fff;
+  color: #330000;
   font-weight: bold;
   font-size: 30px;
 }
 
 .box3 {
-  background-color: orange;
+  background-color: #80a491;
   margin-right: 50px;
   line-height: 300px;
-  color: #fff;
+  color: #330000;
   font-weight: bold;
   font-size: 30px;
 }
 
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .access {
   display: flex;
-  justify-content: space-between;
 }
 
 .access-pic {
-  width: 180px;
-}
-
-.access-text {
-  margin-top: 50px;
-  margin-right: 150px
+  margin-right: 32px;
 }
 
 .access-text p {
   font-size: 20px;
 }
 
+.recruit {
+  display: flex;
+}
+
+.recruit-pic {
+  margin-right: 0px;
+  order: 3;
+}
+
+.recruit-text {
+  margin-right: 0px;
+  font-size: 20px;
+  order: 2;
+}
+
+.clear {
+  order: 1;
+  color: #dbedf0;
+}
+
 .btn {
-  width: 100px;
+  width: 150px;
   padding: 8px;
-  color: #ddd;
+  color: #330000;
   border-radius: 4px;
   text-align: center;
-  background: hsl(100, 50%, 50%);
+  background: #80a491;
   margin: 30px auto;
   cursor: pointer;
 }
