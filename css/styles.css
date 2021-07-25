@@ -156,7 +156,7 @@ main hr {
 
 .business a {
   text-decoration: none;
-  color: #330000;
+  color: #330000; 
 }
 
 .work {
@@ -234,7 +234,7 @@ main hr {
   height: 150px;
   object-fit: fill;
   width: 100%;
-  opacity: 0.5;
+  /* opacity: 0.5;   */
 }
 
 .douga-text {
@@ -251,42 +251,96 @@ main hr {
   justify-content: space-between;
 }
 
-.box {
+/* .box {
   width: 300px;
   height: 300px;
   text-align: center;
   border-radius: 30%;
   cursor: pointer;
-}
+} */
 
-.box a {
+/* .box a {
   text-decoration: none;
-}
+} */
 
-.box1 {
+/* .box1 {
   background-color: #80a491;
   margin-left: 50px;
   line-height: 300px;
   color: #330000;
   font-weight: bold;
   font-size: 30px;
-}
+} */
 
-.box2 {
+/* .box2 {
   background-color: #80a491;
   line-height: 300px;
   color: #330000;
   font-weight: bold;
   font-size: 30px;
-}
+} */
 
-.box3 {
+/* .box3 {
   background-color: #80a491;
   margin-right: 50px;
   line-height: 300px;
   color: #330000;
   font-weight: bold;
   font-size: 30px;
+} */
+
+.containers {
+  width: 60%;
+  height: 250px;
+  margin: 16px auto;
+  /* outline: 5px solid #80a491; */
+  overflow: hidden;
+  position: relative;
+}
+
+.containers ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+
+.containers li {
+  height: 100%;
+  min-width: 100%;
+}
+
+.containers li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#prev,
+#next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  font-size: 24px;
+  padding: 0 8px 4px;
+  cursor: pointer;
+}
+
+#prev:hover,
+#next:hover {
+  opacity: .8;
+}
+
+#prev {
+  left: 0;
+}
+
+#next {
+  right: 0;
 }
 
 section:nth-child(even) {
@@ -298,13 +352,13 @@ section:nth-child(even) {
 }
 
 .access-pic {
-  margin-right: 32px;
+  margin-right: 100px;
   margin-left: 20px;
 }
 
-.access-text p {
+/* .access-text p {
   font-size: 20px;
-}
+} */
 
 h2 {
   margin: 0px;
@@ -360,8 +414,13 @@ h4 {
   cursor: pointer;
 }
 
+.btn:hover {
+  opacity: .8;
+}
+
 .btn a {
   text-decoration: none;
+  color: #330000;
 }
 
 footer {

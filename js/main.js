@@ -1,6 +1,14 @@
 'use strict';
 
 {
+  const next = document.getElementById('next');
+  const ul = document.querySelector ('ul');
+  next.addEventListener('click', () => {
+    ul.style.transform = 'translateX(-200px)';
+  }); 
+
+
+
   const open = document.getElementById('open');
   const close = document.getElementById('close');
   const modal = document.getElementById('modal');
