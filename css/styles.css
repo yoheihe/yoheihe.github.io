@@ -19,7 +19,7 @@ body {
 
 .main-page > a {
   text-decoration: none;
-text-decoration-color: #330000;
+  color: #330000;
 }
 
 hi {
@@ -57,6 +57,7 @@ header h1 {
 
 .main-nav li a {
   text-decoration: none;
+  color: #330000;
 }
 
 .wrapper {
@@ -146,6 +147,105 @@ main hr {
     height: 5px;
 }
 
+.business {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  
+}
+
+.business a {
+  text-decoration: none;
+  color: #330000;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sien {
+  width: 30%;
+} 
+
+.sien-img {
+  border: 1px solid #CCC;
+  height: 150px;
+  overflow: hidden;
+}
+
+.sien-img img {
+  display: block;
+  height: 150px;
+  object-fit: fill;
+  width: 100%;
+  /* margin-left: 20px; */
+}
+
+.sien-text {
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sien-text p {
+  border-bottom: double 5px #330000;
+}
+
+.jigyou {
+  width: 30%
+} 
+
+.jigyou-img {
+  border: 1px solid #CCC;
+  /* width: 290px; */
+  height: 150px;
+  overflow: hidden;
+}
+
+.jigyou-img img {
+  display: block;
+  height: 150px;
+  object-fit: fill;
+  width: 100%;
+}
+
+.jigyou-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.jigyou-text p {
+  border-bottom: double 5px #330000;
+}
+
+.douga {
+  width: 30%;
+} 
+
+.douga-img {
+  border: 1px solid #CCC;
+  height: 150px;
+  overflow: hidden;
+}
+
+.douga-img img {
+  display: block;
+  height: 150px;
+  object-fit: fill;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.douga-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.douga-text p {
+  border-bottom: double 5px #330000;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -199,24 +299,38 @@ section:nth-child(even) {
 
 .access-pic {
   margin-right: 32px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .access-text p {
   font-size: 20px;
 }
 
-.recruit {
+h2 {
+  margin: 0px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+}
+  
+.saiyo {
   display: flex;
 }
 
-.recruit-pic {
+.saiyo-pic {
   margin-right: 0px;
-  margin-right: 10px;
+  margin-right: 20px;
   order: 3;
 }
 
-.recruit-text {
+.saiyo-text {
   margin-right: 40px;
   margin-left: 100px;
   font-size: 20px;
@@ -230,7 +344,10 @@ section:nth-child(even) {
 
 .contact-text {
   text-align: center;
+  font-size: 20px;
 }
+
+
 
 .btn {
   width: 150px;
