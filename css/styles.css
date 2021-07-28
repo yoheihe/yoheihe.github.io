@@ -180,7 +180,7 @@ main hr {
 
 .work {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .sien {
@@ -398,7 +398,7 @@ section:nth-child(even) {
 }
 
 .access-pic {
-  margin-right: 100px;
+  margin-right: 80px;
   margin-left: 20px;
 }
 
