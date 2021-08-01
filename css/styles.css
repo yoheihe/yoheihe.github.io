@@ -1,10 +1,15 @@
 @charset "utf-8";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0px;
   background: #dbedf0;
   color: #330000;
 }
+
 
 .main-page {
   cursor: pointer;
@@ -22,7 +27,7 @@ body {
   color: #330000;
 }
 
-hi {
+h1 {
   font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
 }
 
@@ -45,9 +50,10 @@ header h1 {
   display: flex;
   font-size: 15px;
   text-transform: uppercase;
-  margin-top: 34px;
+  margin-top: 55px;
   list-style: none;
   color: #330000;
+  margin-top: 21px;
 }
 
 .main-nav li {
@@ -83,7 +89,7 @@ header h1 {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: #dbedf0;;
+  background-color: #dbedf0;
 }
 
 
@@ -91,6 +97,7 @@ header h1 {
   position: relative;
   display: inline-block;
   margin: 0%;
+  z-index: 10;
 }
 
 .movei-content video {
@@ -173,8 +180,8 @@ main hr {
   
 }
 
+
 .business a {
-  text-decoration: none;
   color: #330000; 
 }
 
