@@ -4,12 +4,27 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   margin: 0px;
   background: #dbedf0;
   color: #330000;
 }
 
+/* small screen */
+
+/* medium screen */
+/* @media (min-width: 600px) {
+
+}  */
+
+/* large screen */
+@media (min-width: 800px) {
+  section {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
 
 .main-page {
   cursor: pointer;
@@ -92,6 +107,9 @@ header h1 {
   background-color: #dbedf0;
 }
 
+/* .spmenu {
+  margin-left: auto;
+} */
 
 .movei-content {
   position: relative;
@@ -113,6 +131,12 @@ header h1 {
   position: absolute;
   top: 70px;
   left: 70px;
+}
+
+.subtext {
+  position: absolute;
+  top: 129px;
+  left: 90px;
 }
 
 /* .table-center {
@@ -157,6 +181,15 @@ h1 {
 .main-text {
   text-align: center;
   font-size: 20px;
+  font-weight: bold;
+}
+
+.pp {
+  display: inline-block;
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
 }
 
 li {
