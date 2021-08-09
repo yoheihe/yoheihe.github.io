@@ -215,7 +215,8 @@ main hr {
 
 
 .business a {
-  color: #330000; 
+  color: #330000;
+  text-decoration: none;
 }
 
 .work {
