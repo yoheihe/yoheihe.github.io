@@ -252,33 +252,6 @@ main hr {
   border-bottom: double 5px #330000;
 }
 
-.jigyou {
-  width: 30%
-} 
-
-.jigyou-img {
-  border: 1px solid #CCC;
-  /* width: 290px; */
-  height: 150px;
-  overflow: hidden;
-}
-
-.jigyou-img img {
-  display: block;
-  height: 150px;
-  object-fit: fill;
-  width: 100%;
-}
-
-.jigyou-text {
-  font-size: 30px;
-  text-align: center;
-}
-
-.jigyou-text p {
-  border-bottom: double 5px #330000;
-}
-
 .douga {
   width: 30%;
 } 
@@ -303,6 +276,67 @@ main hr {
 }
 
 .douga-text p {
+  border-bottom: double 5px #330000;
+}
+
+
+
+.work2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.matching {
+  width: 30%;
+} 
+
+.matching-img {
+  border: 1px solid #CCC;
+  height: 150px;
+  overflow: hidden;
+}
+
+.matching-img img {
+  display: block;
+  height: 150px;
+  object-fit: fill;
+  width: 100%;
+  /* opacity: 0.5;   */
+}
+
+.matching-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.matching-text p {
+  border-bottom: double 5px #330000;
+}
+
+.jigyou {
+  width: 30%
+} 
+
+.jigyou-img {
+  border: 1px solid #CCC;
+  /* width: 290px; */
+  height: 150px;
+  overflow: hidden;
+}
+
+.jigyou-img img {
+  display: block;
+  height: 150px;
+  object-fit: fill;
+  width: 100%;
+}
+
+.jigyou-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.jigyou-text p {
   border-bottom: double 5px #330000;
 }
 
@@ -488,6 +522,10 @@ h4 {
   font-size: 20px;
 }
 
+.contact-text > p {
+  display: inline-block;
+  text-align: left;
+}
 
 
 .btn {
